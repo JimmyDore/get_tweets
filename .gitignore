@@ -3,3 +3,5 @@ venv/
 __pycache__/
 *.csv
 *.pickle
+secret.py
+output.zip

@@ -1,5 +1,10 @@
 # Des tweets pour s'amuser
 
+## Le script utilisé
+==> https://github.com/JimmyDore/get_tweets/blob/master/main.py
+PS (c'est pas beau, j'ai fait ça en 2h, mais libre à vous de soumettre une PR pour l'améliorer, prendre des paramètres en compte, factoriser le code, clean les imports etc... moi j'ai la flemme)
+
+
 ## Les twittos choisis
 - EmmanuelMacron : président 
 - murielpenicaud : ministre du travail 
@@ -25,4 +30,3 @@ Le dossier `output/` contient 2 dossiers :
         import pandas as pd
         df = pd.read_pickle(f"tweets_from_users-{date.today()}.pickle")
         ```
-
